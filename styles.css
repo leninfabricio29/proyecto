@@ -1,0 +1,15 @@
+.img-content img {
+    border-radius: 50%;
+}
+
+.container-body {
+    display: flex;
+}
+
+.img-content {
+    margin: 50px;
+}
+
+.titulos {
+    color: red
+}
