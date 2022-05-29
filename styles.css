@@ -2,23 +2,9 @@ body {
     margin: 0;
 }
 
-header {
-    background: url(img/Header.jpg);
-    background-size: cover;
-    height: 280px;
-    min-height: 100px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-p {}
-
 .h1 {
     padding: 50px;
 }
-
-.h3 {}
 
 .intro {
     background-color: black;
