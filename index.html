@@ -5,263 +5,387 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
     <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <title>Carbonero-info</title>
+    <title> Proyecto Carbonero</title>
 </head>
 
 <body>
-
-    <section id="home" name="home"></section>
-    <div id="headerwrap">
-        <div class="container">
-            <div class="logo">
-            </div>
-            <br>
-            <div class="row">
-                <h1 style="color: black;">Carbonero Balcón, Gestión de proyectos</h1>
-                <br>
-                <h3 style="color: rgb(0, 0, 0);">Fabricio, Jorge, Vladimir, Cristobal</h3>
-                <br>
-                <br>
-                <div class="col-lg-6 col-lg-offset-3">
+    <nav class="navbar navbar-expand-lg bg-dark shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Carbonero Balcón</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link text-light" aria-current="page" href="#inicio">Inicio</a>
+                    <a class="nav-link text-light" href="#introduccion">Introducción</a>
+                    <a class="nav-link text-light" href="#desarrollo">Desarrollo</a>
+                    <a class="nav-link text-light" href="#BPMN">BPMN</a>
                 </div>
             </div>
         </div>
-    </div>
+    </nav>
+    <section class="inicio" id="inicio">
+        <header>
+            <h1 class="h1 text-light">Carbonero Balcón, Gestión de proyectos</h1>
+            <h3 class="h3 text-light">Fabricio, Jorge, Vladimir, Cristobal</h3>
+        </header>
+    </section>
 
-
-
-
-    <section id="about" name="about"></section>
-    <div id="f">
-        <div class="container">
-            <div class="row">
-                <h3>INTRODUCCION</h3>
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-                <div class="">
-                    <p>El desarrollo de software bajo políticas de desarrollo sustentable permite la construcción de proyectos informáticos ágiles, robustos, reusables y sobre todo que permitan el mejoramiento de actividades humanas. Sin embargo, la construcción
-                        de software requiere de una serie de metodologías y secuencia de actividades necesarias para asegurar la calidad del sistema, adicionalmente, la construcción del software requiere una planificación adecuada partiendo desde el establecimiento
-                        del alcance y qué objetivos se desea alcanzar. El presente informe, busca detallar la temática y los objetivos deseados durante la construcción de una plataforma web para el restaurante Carbonero Balcón ubicado en la ciudad de
-                        Loja. Además, se definen las metodologías, técnicas y arquitecturas que se implementarán como primer paso en la elaboración del sistema. </p>
+    <section class="introduccion" id="introduccion">
+        <div class="bg-light mw-100 text-dark text-center">
+            <h1>INTRODUCCIÓN</h1>
+        </div>
+        <div class="card bg-dark" style="max-width: auto">
+            <div class="row g-0">
+                <div class="col-md-2">
+                    <img src="img/IMAGEN.jpg" class="img-fluid rounded-start" width="320px" alt="...">
+                </div>
+                <div class="col-md-10">
+                    <div class="card-body">
+                        <p class="card-text text-xl-start fs-3 text-light">El desarrollo de software bajo políticas de desarrollo sustentable permite la construcción de proyectos informáticos ágiles, robustos, reusables y sobre todo que permitan el mejoramiento de actividades humanas. Sin embargo, la
+                            construcción de software requiere de una serie de metodologías y secuencia de actividades necesarias para asegurar la calidad del sistema, adicionalmente, la construcción del software requiere una planificación adecuada partiendo
+                            desde el establecimiento del alcance y qué objetivos se desea alcanzar. El presente informe, busca detallar la temática y los objetivos deseados durante la construcción de una plataforma web para el restaurante Carbonero Balcón
+                            ubicado en la ciudad de Loja. Además, se definen las metodologías, técnicas y arquitecturas que se implementarán como primer paso en la elaboración del sistema.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <section id="about" name="about"></section>
-    <div id="f">
-        <div class="container">
-            <div class="row">
-                <h3>Desarrollo</h3>
-                <h4 style="color: white ;"> 2.1. Temática.</h4>
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-                <div class="">
-                    <p> Plataforma WEB para la automatización de pedidos en el restaurante Carbonero Balcón de la ciudad de Loja.
-                    </p>
-                    <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-
-                    <h3>2.2. Objetivos </h3>
-                    <h4 style="color: white ;"> 2.2.1. Objetivo general</h4>
-                    <div>
-
-                        <div style="color: white; ">
-                            <li>
-                                Diseñar una plataforma web para la automatización de los pedidos en el restaurante Carbonero Balcón en la ciudad de Loja bajo las normativa de desarrollo de software sustentable.
-                            </li>
+    </section>
+    <section class="desarrollo" id="desarrollo">
+        <div class="bg-light mw-100 text-dark text-center">
+            <h1>DESARROLLO</h1>
+        </div>
+        <div class="bg-dark text-light">
+            <div>
+                <h3>2.1. Temática.</h3>
+                <p class="text-xl-start fs-3">
+                    Plataforma WEB para la automatización de pedidos en el restaurante Carbonero Balcón de la ciudad de Loja.
+                </p>
+            </div>
+            <div>
+                <h3>2.2. Objetivos </h3>
+                <div class="accordion bg-dark" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item bg-dark text-light">
+                        <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                <h4>2.2.1. Objetivo general</h4>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne" style="">
+                            <div class="accordion-body fs-4 text-light">
+                                <strong>Diseñar una plataforma web para la automatización de los pedidos en el
+                                    restaurante Carbonero Balcón en la ciudad de Loja bajo las normativa de desarrollo
+                                    de software sustentable.
+                            </div>
                         </div>
-
                     </div>
-                    <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
-
-                    <h5 style="color: white ;"> 2.2.2. Objetivos específicos </h5>
-                    <div style="color: white;">
-
-                        <li>Analizar los procesos que se llevan a cabo en el restaurante referente a la recepción de pedidos. Conocer los conceptos relacionados a las metodologías de desarrollo de software sustentable.
-                        </li>
-                        <li>
-                            Construir una solución informática para la automatización de pedidos en el restaurante utilizando una metodología ágil.
-                        </li>
-                        <li>
-                            Implementar la solución informática en el tiempo establecido por el cliente.
-
-                        </li>
-                    </div>
-                </div>
-                <div>
-                    <h3>2.3. Alcance</h3>
-                    <div style="color: white; justify-content: center; text-align: center; justify-items: center; align-items: center;">
-                        El alcance del proyecto se dividirá en etapas tomando como base los objetivos específicos planteados en el punto anterior.
-                        <li>
-                            Etapa 1: Analizar los procesos que se llevan a cabo en el restaurante referente a la recepción de pedidos.
-                            <div style="text-justify: center; text-align: center; align-items: center;">
-                                <li>
-                                    Realizar entrevistas.
-
-                                </li>
-                                <li>
-                                    Reconocer el problema.
-                                </li>
-                                <li>
-                                    Evaluar y sintetizar el problema.
-                                </li>
-                                <li>
-                                    Modelar.
-                                </li>
-                                <li>
-                                    Especificar.
-                                </li>
-                                <li>
-                                    Revisar.
-                                </li>
-
+                    <div class="accordion-item bg-dark text-light">
+                        <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <h4>2.2.2. Objetivos específicos</h4>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body fs-4 text-light">
+                                <li>Analizar los procesos que se llevan a cabo en el restaurante referente a la
+                                    recepción de pedidos. Conocer los conceptos relacionados a las metodologías de
+                                    desarrollo de software sustentable.</li>
+                                <li>Construir una solución informática para la automatización de pedidos en el
+                                    restaurante utilizando una metodología ágil.</li>
+                                <li>Implementar la solución informática en el tiempo establecido por el cliente.</li>
                             </div>
-
-                        </li>
-
-
-                    </div>
-                    <div style="color: white; justify-content: center; text-align: center; justify-items: center; align-items: center;">
-                        <li>
-                            Etapa 2: Construir una solución informática para la automatización de pedidos en el restaurante utilizando una metodología ágil.
-                            <div style="text-justify: center; text-align: center; align-items: center;">
-                                <li>
-                                    Planificación.
-                                </li>
-                                <li> Diseño.
-                                </li>
-                                <li>
-                                    Codificación.
-                                </li>
-                                <li>
-                                    Modelar.
-                                </li>
-                                <li>
-                                    Pruebas.
-                                </li>
-                                <li>
-                                    Lanzamiento.
-                                </li>
-
-                            </div>
-
-                        </li>
-                    </div>
-                    <div style="color: white; justify-content: center; text-align: center; justify-items: center; align-items: center;">
-                        <li>
-                            Etapa 3: Implementar la solución informática en el tiempo establecido por el cliente.
-                            <div style="text-justify: center; text-align: center; align-items: center;">
-                                <li>
-                                    Entrega del software.
-
-                                </li>
-                                <li> Entregar documentación.
-                                </li>
-                                <li>
-                                    Ofrecer capacitaciones.
-                                </li>
-                                <li>
-                                    Ofrecer asistencia técnica gratuita durante los 3 primeros meses.
-                                </li>
-                            </div>
-
-                        </li>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div>
+                <h3>2.3. Alcance.</h3>
+                <p class="text-xl-start fs-4">
+                    El alcance del proyecto se dividirá en etapas tomando como base los objetivos específicos planteados
+                    en el punto anterior.
+                </p>
+                <div class="accordion bg-dark" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item bg-dark text-light">
+                        <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne2"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                <h4>Etapa 1: Analizar los procesos que se llevan a cabo en el restaurante referente a la
+                                    recepción de pedidos.</h4>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne2" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne" style="">
+                            <div class="accordion-body fs-5 text-light">
+                                <li>Realizar entrevistas.</li>
+                                <li>Reconocer el problema.</li>
+                                <li>Evaluar y sintetizar el problema.</li>
+                                <li>Modelar.</li>
+                                <li>Especificar.</li>
+                                <li>Revisar.</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark text-light">
+                        <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo3"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <h4>Etapa 2: Construir una solución informática para la automatización de pedidos en el
+                                    restaurante utilizando una metodología ágil.</h4>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo3" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body fs-5 text-light">
+                                <li>Planificación.</li>
+                                <li>Diseño.</li>
+                                <li>Codificación.</li>
+                                <li>Modelar.</li>
+                                <li>Pruebas.</li>
+                                <li>Lanzamiento.</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-dark text-light">
+                        <h2 class="accordion-header bg-dark" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed bg-dark text-light" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo4"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                <h4>Etapa 3: Implementar la solución informática en el tiempo establecido por el
+                                    cliente.</h4>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo4" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body fs-5 text-light">
+                                <li>Entrega del software.</li>
+                                <li>Entregar documentación.</li>
+                                <li>Ofrecer capacitaciones.</li>
+                                <li>Ofrecer asistencia técnica gratuita durante los 3 primeros meses.</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>2.4. Tecnologías (lenguajes, metodologías, plataformas).
+                </h3>
+                <p class="text-xl-start fs-4">Durante el desarrollo del proyecto se implementará una serie de
+                    herramientas para la construcción de modelos, implementación, codificación y puesta en marcha del
+                    mismo.
+                </p>
+                <div>
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Lenguajes de programación</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Lenguajes de Base de Datos</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Framework</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-api-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-api" type="button" role="tab" aria-controls="pills-api"
+                                aria-selected="false">Api Rest</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <p class="text-xl-start fs-5">
+                                Los lenguajes de programación ayudan a los desarrolladores en la construcción de
+                                sistemas
+                                robustos, donde su implementación está netamente definida por el contexto y el sector de
+                                implementación. <br>
+                                Sin embargo, primeramente se debe partir de la definición precisa sobre qué es un
+                                lenguaje
+                                de programación, de tal forma que, un lenguaje de programación, según Carlos Ureña
+                                Alamagro,
+                                se define como el conjunto de reglas y normas que permiten asociar cada programa con su
+                                fin
+                                objetivo y la forma en la que se va a desplegar. Otra definición lo muestra como, un
+                                acuerdo
+                                o convenio de las reglas que se deben seguir para la construcción de programas
+                                informáticos. <br>
+                                En este contexto, se puede determinar que, un lenguaje de programación se puede definir
+                                como
+                                la representación formal de un conjunto de normas e instrucciones que permiten al
+                                desarrollador escribir una serie de órdenes, acciones, operaciones y algoritmos bajo el
+                                término de programa para controlar el funcionamiento de hardware y software. <br>
+                                Durante el presente proyecto se implementará una serie de lenguajes enfocados al
+                                desarrollo
+                                web, entre los que se va a implementar esta:</p>
+                            <li class="text-xl-start fs-5">JavaScript</li>
+                            <p class="text-xl-start fs-5">Es un lenguaje de programación enfocado a la web, el cual
+                                permite implementar funciones
+                                de primera clase al ser un lenguaje ligero, interpretado y compilado bajo la filosofía
+                                de “just-in-time”. Es implementado en entornos como Nodejs, Apache, Adobe, entre otros.
+                                <br>
+                                Otra definición, según Mozilla, es un lenguaje de programación basado en prototipos,
+                                multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a
+                                objetos, imperativa y declarativa (por ejemplo programación funcional). <br>
+                                En definitiva, el lenguaje permite el desarrollo ágil de aplicaciones enfocadas a la web
+                                basadas en la arquitectura de cliente-servidor tal es el caso de la plataforma del
+                                presente proyecto.
+                            </p>
+                            <li class="text-xl-start fs-5">Python</li>
+                            <p class="text-xl-start fs-5">
+                                Python es un lenguaje de programación de alto nivel que soporta múltiples
+                                implementaciones en el desarrollo de aplicaciones web, entre otros. En esencia, forma
+                                parte de la base del framework Django siendo el lenguaje que se implementa para el
+                                desarrollo de toda la aplicación completa. <br>
+                                Otra de las definiciones que recibe python, según Python, se define como un lenguaje de
+                                programación de alto nivel orientado a objetos en compañía de una semántica agregada
+                                para el desarrollo web bajo la normativa de desarrollo rápido de aplicaciones o RAD.
+                                <br>
+                                Finalmente, es importante mencionar que, el uso del lenguaje viene orientado por el uso
+                                del framework de desarrollo Django, el cual permite el desarrollo de aplicaciones web
+                                ágiles.
 
+                            </p>
+
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <p class="text-xl-start fs-5">
+                                Los lenguajes de base de datos permiten manejar sentencias para la manipulación de
+                                información en una base de datos relacional o no relacional, con el objetivo de mantener
+                                la información a disposición de la plataforma. Estos lenguajes se basan en sentencias de
+                                tipo SQL que permiten la gestión y recuperación de información de motores de base de
+                                datos de tipo relacional implementando el cálculo relacional y álgebra relacional. <br>
+                                Entre las características del lenguaje SQL se pueden mencionar:
+                                <li>Permite crear, modificar y borrar esquemas de relación.</li>
+                                <li>Usa el álgebra y el cálculo relacional para la realización de consultas.</li>
+                                <li>Contiene reglas basadas en comandos para asegurar la integridad de los datos.</li>
+                                <li>Inclusión de instrucciones de lenguajes de programación como C++, Pascal, Java, PHP,
+                                    entre otros.</li>
+                            </p>
+                            <li class="text-xl-start fs-5">PostgreSQL</li>
+                            <p class="text-xl-start fs-5">
+                                PostgreSQL es un sistema de base de datos para el manejo de volúmenes de información
+                                considerables provenientes de sitios web, soportando múltiples tablas índices, triggers,
+                                entre otros componentes. <br>
+                                Una característica interesante de este tipo de base de datos es su no dependencia de una
+                                arquitectura en específico, es decir, es multiplataforma e indistintamente se puede
+                                utilizar el mismo archivo en sistemas de 32 y 64 bits. En esencia, ofrece una serie de
+                                ventajas frente a otros motores de base de datos como MySQL, básicamente, presenta un
+                                mayor rendimiento, portabilidad y estabilidad. <br>
+                                Finalmente, la elección del motor de base de PostgreSQL para el manejo de la información
+                                de grandes volúmenes y la sencillez con la que se generan las sentencias de envío y
+                                recepción de información, adicionalmente, argumentando que el manejo de la información
+                                no genera una amenaza de seguridad potencial.
+
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+                            <li class="text-xl-start fs-5">
+                                Django
+                            </li>
+                            <p class="text-xl-start fs-5">
+                                Según Mozilla, Django se define como un framework para el desarrollo de aplicaciones
+                                basadas en python y javascript de forma rápida, ágil y sostenida [8]. Básicamente,
+                                Dajngo facilita a los desarrolladores el despliegue de aplicaciones sin la preocupación
+                                del manejo de dependencias extras como lo tienen otros frameworks. <br>
+                                En resumen, se puede definir que las características del framework muestran su punto más
+                                fuerte, las mismas que son:
+
+                                <li>Completitud.</li>
+                                <li>Versatilidad.</li>
+                                <li>Seguridad.</li>
+                                <li>Escalabilidad.</li>
+                                <li>Mantenibilidad.</li>
+                                <li>Portabilidad.</li>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="pills-api" role="tabpanel" aria-labelledby="pills-api-tab"
+                            tabindex="0">
+                            <p class="text-xl-start fs-5">
+                                Según Red Hat, “es una interfaz de programación de aplicaciones (API o API web) que
+                                se ajusta a los límites de la arquitectura REST y permite la interacción con los
+                                servicios web de RESTful.” <br>
+                                En definitiva, el uso de APIs en el presente proyecto se basa en la facilidad que
+                                ofrecen para la integración del software de las aplicaciones, es decir, permite a la API
+                                poder interactuar directamente con los sistemas para la obtención de datos y ejecutar
+                                cualquier tipo de operación.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>2.5. Metodología, filosofía o arquitectura de software.
+                </h3>
+                <div>
+                    <li class="text-xl-start fs-5">Metodología XP</li>
+                    <p class="text-xl-start fs-5">En sí el trabajo con una metodología permite disminuir el nivel dificultad, tener una
+                        organización de la tareas, agilizar procesos y mejorar el resultado final. <br>
+                        Está metodología es un conjunto de técnicas, que evidencia principios como el desarrollo
+                        incremental. la participación activa del cliente, el interés en las personas y no en los
+                        procesos como elemento principal, y aceptar el cambio y la simplicidad. <br>
+                        La principal ventaja de XP es que ayuda a potenciar las relaciones personales mediante el
+                        trabajo en equipo, impulsando la comunicación y eliminación de tiempos muertos.
+                    </p>
+                    <li class="text-xl-start fs-5">Arquitectura MTV</li>
+                    <p class="text-xl-start fs-5">
+                        El patrón modelo-template-vista es el que por defecto se emplea con Django, en esencia, consta de tres componentes de vital importancia:
+                    </p>
+                    <div class="card-group bg-dark">
+                        <div class="card">
+                          
+                          <div class="card-body bg-dark text-xl-start fs-5">
+                            <h5 class="card-title">Modelo</h5>
+                            <p class="card-text">Maneja todo lo relacionado con la información, esto incluye cómo acceder a esta, la validación, relación entre los datos y su comportamiento.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                         
+                          <div class="card-body bg-dark text-xl-start fs-5">
+                            <h5 class="card-title">Vista</h5>
+                            <p class="card-text">Representa el enlace entre las tablas y template en esencia, es la zona de administración de las vistas.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          
+                          <div class="card-body bg-dark text-xl-start fs-5">
+                            <h5 class="card-title">Template</h5>
+                            <p class="card-text">Es la muestra de la información visual acompañada de una presentación adecuada por CSS y JS. </p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="BPMN" id="BPMN">
+                <h3>2.6. Notación BPMN.
+                </h3>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/BPMN.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+            </div>
         </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div>
-
-        <h4> 2.4. Tecnologías (lenguajes, metodologías, plataformas) </h4>
-        <p>
-            Durante el desarrollo del proyecto se implementará una serie de herramientas para la construcción de modelos, implementación, codificación y puesta en marcha del mismo
-        </p>
-
-        <h4>Lenguajes
-        </h4>
-        <p>
-            Los lenguajes de programación ayudan a los desarrolladores en la construcción de sistemas robustos, donde su implementación está netamente definida por el contexto y el sector de implementación. Sin embargo, primeramente se debe partir de la definición
-            precisa sobre qué es un lenguaje de programación, de tal forma que, un lenguaje de programación, según Carlos Ureña Alamagro, se define como el conjunto de reglas y normas que permiten asociar cada programa con su fin objetivo y la forma en
-            la que se va a desplegar [1]. Otra definición lo muestra como, un acuerdo o convenio de las reglas que se deben seguir para la construcción de programas informáticos [1]. En este contexto, se puede determinar que, un lenguaje de programación
-            se puede definir como la representación formal de un conjunto de normas e instrucciones que permiten al desarrollador escribir una serie de órdenes, acciones, operaciones y algoritmos bajo el término de programa para controlar el funcionamiento
-            de hardware y software [1][2]. Durante el presente proyecto se implementará una serie de lenguajes enfocados al desarrollo web, entre los que se va a implementar esta:
-        </p>
-        <h4>Javascript
-        </h4>
-        <p>
-
-            Es un lenguaje de programación enfocado a la web, el cual permite implementar funciones de primera clase al ser un lenguaje ligero, interpretado y compilado bajo la filosofía de “just-in-time”. Es implementado en entornos como Nodejs, Apache, Adobe, entre
-            otros. Otra definición, según Mozilla, es un lenguaje de programación basado en prototipos, multiparadigma, de un solo hilo, dinámico, con soporte para programación orientada a objetos, imperativa y declarativa (por ejemplo programación funcional)
-            [3]. En definitiva, el lenguaje permite el desarrollo ágil de aplicaciones enfocadas a la web basadas en la arquitectura de cliente-servidor tal es el caso de la plataforma del presente proyecto.</p>
-        <h4>Python</h4>
-
-        <p>
-            Python es un lenguaje de programación de alto nivel que soporta múltiples implementaciones en el desarrollo de aplicaciones web, entre otros. En esencia, forma parte de la base del framework Django siendo el lenguaje que se implementa para el desarrollo
-            de toda la aplicación completa. Otra de las definiciones que recibe python, según Python, se define como un lenguaje de programación de alto nivel orientado a objetos en compañía de una semántica agregada para el desarrollo web bajo la normativa
-            de desarrollo rápido de aplicaciones o RAD [5][6]. Finalmente, es importante mencionar que, el uso del lenguaje viene orientado por el uso del framework de desarrollo Django, el cual permite el desarrollo de aplicaciones web ágiles
-        </p>
-        <h4>2.5. Metodología, filosofía o arquitectura de software</h4>
-        <h5>Metodología XP
-        </h5>
-        <p>
-            En sí el trabajo con una metodología permite disminuir el nivel dificultad, tener una organización de la tareas, agilizar procesos y mejorar el resultado final. Está metodología es un conjunto de técnicas, que evidencia principios como el desarrollo incremental.
-            la participación activa del cliente, el interés en las personas y no en los procesos como elemento principal, y aceptar el cambio y la simplicidad. La principal ventaja de XP es que ayuda a potenciar las  relaciones personales mediante el
-            trabajo en equipo, impulsando la comunicación y eliminación de tiempos muertos.
-        </p>
-        <h4>Arquitectura MTV</h4>
-        <div>
-            <li>
-                Modelo
-            </li>
-            <p>
-                Maneja todo lo relacionado con la información, esto incluye cómo acceder a esta, la validación, relación entre los datos y su comportamient
-            </p>
-            <li>
-                Vista
-            </li>
-            <p>
-                Representa en enlace entre las tablas y template en esencia, es la zona de administración de las vistas.
-            </p>
-            <li>
-                Template
-            </li>
-            <p>
-                Es la muestra de la información visual acompañada de una presentación adecuada por CSS y JS.
-            </p>
-        </div>
-        </section>
-        <section>
-            <h2>
-
-                Modelo BPMN</h2>
-            <div class="container align-center text-center" style="display: grid; grid-template-columns: 1fr; grid-gap: 10%; align-items: center; text-align: center;">
-                <img src="img/BPMN.png " width="1800px" height="800px" /></section>
-        </div>
-
-    </div>
-
-    </div>
-    </div>
-
+    </section>
 </body>
 
 </html>
