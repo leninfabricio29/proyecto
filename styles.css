@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url(/img/Header.jpg);
+    background: url(img/Header.jpg);
     background-size: cover;
     height: 280px;
     min-height: 100px;
